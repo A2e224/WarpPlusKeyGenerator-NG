@@ -208,6 +208,9 @@ def file_output(num: int, filename: str,append: bool, base_keys: list[str] = [])
 
 
 if __name__ == "__main__":
+    rich.print(
+        f"[bold][red]Caution: The generator will not work properly because Cloudflare has concluded its referral program. To get the WARP+ experience, go to https://github.com/0x24a/WarpPlusKeyGenerator-NG/issues/11 to join the Zero Trust Teams we've created.[/red][/bold]"
+    )
     parser = argparse.ArgumentParser(
         prog="WarpPlusKeyGenerator-NG",
         description="Generates Warp+ Keys",

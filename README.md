@@ -2,6 +2,9 @@
 Cloudflare Warp+ key generator.
 Generates keys with 1.92EB quota by default.
 
+> [!CAUTION]
+> The generator will not work properly because Cloudflare has concluded its referral program. To get the WARP+ experience, click [here](https://github.com/0x24a/WarpPlusKeyGenerator-NG/issues/11) to join the Zero Trust Teams we've created.
+
 ## Preview
 ![preview](preview.png)
 

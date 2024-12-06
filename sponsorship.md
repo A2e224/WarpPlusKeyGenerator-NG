@@ -1,9 +1,9 @@
 # Sponsorship
 You can sponsor me via crypto and I would appreciate any amount!
 
-BTC: bc1pffcsxlfwklve2uss9ejf8eqh8gra4kprcmywr809rgsll892lpdqya852r  
-LTC: MHhHyBoYsrLKbVKz8W4T3R1ZovAaXndSgq  
-DOGE: DRitqVX9ajfWFHyiFGWx4B5a77QzidDns7  
-ETH/USDT/USDC(Ethereum/Polygon/Optimism/(any EVM chain)): 0xe6a1dfe32a2799afda549b8cae61e4bf8446b444  
-USDT/USDC(TRON): TXYG1ycN9yXqSyRZCsecYDJ3D1qXdpuV5c  
-USDT/USDC(Solana): AnbWqwZMRNEuLp6zPFadKYghv3NFahSjbikaf8yAqV2A  
+BTC: bc1pfvlwclnu8h8p2ex9yz9suzj32gvde34e6y2a6q84vdy8k7c4h3ws5jtzqz  
+LTC: MKRa9gcuvWzU9hoq21NtWQuz7UmcjUSzLg  
+DOGE: D6MxToog4sZbhvqmQpxXCj1Du33Atp2efY  
+ETH/USDT/USDC(Ethereum/Polygon/Optimism/(any EVM chain)): 0xbcf0968e9adde975d430e4ecaeae12a35ff2739a  
+USDT/USDC(TRON): TAHKbKPmsS1u76STXGYheZe3qhyj7ZrGXG  
+USDT/USDC(Solana): BfyfrPbJSxVT3nz7NhHMY8kdfu6Rvrca1qpFhab48MtN  

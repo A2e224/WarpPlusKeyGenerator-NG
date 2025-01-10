@@ -156,6 +156,7 @@ def cli(num: int, base_keys: list[str] = []):
     for i in range(1, num + 1):
         rich.print(f"\nGenerating... [yellow]({i}/{num})[/yellow]")
         sleep_time = 30
+        single_key=None
         while 1:
             try:
                 single_key = generate_key(random.choice(base_keys))
@@ -176,10 +177,11 @@ def cli(num: int, base_keys: list[str] = []):
                 rich.print(tb)
                 rich.print(f"\n[green]Retrying after {sleep_time}s...[/green]")
                 time.sleep(sleep_time)
-        rich.print(
-            f"Account Type: \t[green][bold]{single_key.account_type}[/bold][/green]\nData Limit: \t[green][bold]{single_key.referral_count} GiB[/bold][/green]\nLicense Key: \t[green][bold]{single_key.license_code}[/bold][/green]"
-        )
-        if single_key.referral_count <= 1:
+        if single_key:
+            rich.print(
+                f"Account Type: \t[green][bold]{single_key.account_type}[/bold][/green]\nData Limit: \t[green][bold]{single_key.referral_count} GiB[/bold][/green]\nLicense Key: \t[green][bold]{single_key.license_code}[/bold][/green]"
+            )
+        if single_key and single_key.referral_count <= 1:
             rich.print(f"[red]WARN[/red]\t[yellow]Generation problems detected, please open an issue at https://github.com/0x24a/WarpPlusKeyGenerator-NG/issues[/yellow]")
     rich.print(
         "\nKeys:\n"
